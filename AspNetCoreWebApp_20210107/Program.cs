@@ -14,6 +14,9 @@ namespace AspNetCoreWebApp_20210107
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+
+            //** pogaz: simple code to test unit testing in jenkins
+            Console.WriteLine("Hello World!");
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
